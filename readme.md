@@ -3,6 +3,12 @@
 
 Middleware for Express.js that allows the developer to get files from raw.github.com like they if they were local resources.
 
+##Disclaimer
+
+Please, remember that Github is NOT a CDN, and even though they can be used as one with a few lines of code (as this simple middleware shows), you should *NOT* be using this module on heavy production environments. 
+If you do, bad things will happen to you, your hair will fall, your teeth turn yellow and you'll become impotent.
+*You've been warned!*
+
 ##Install
 
 ```
