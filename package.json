@@ -1,0 +1,11 @@
+{
+  "name": "rawhub",
+  "author": "Fernando Doglio <deleteman@gmail.com>", 
+  "description": "Get Github raw files and adds the correct content type",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "3.4.8",
+    "mime": "1.2.11",
+    "request": "2.34.0"
+  }
+}
